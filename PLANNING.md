@@ -1,0 +1,79 @@
+## FINE TOUCH SALON DEVELOPMENT WEBSITE TIMELINE
+
+## Table of contents
+
+- [Overview](#overview)
+    - [Introduction](#introduction)
+- [Process + Development](#process-+-development)
+    - [Set Up](#set-up)
+    - [Design](#design)
+    - [Content](#content)
+    - [Functionality + Responsiveness](#functionality-+-responsiveness)
+    - [SEO](#seo)
+- [Useful Resources](#useful-resources)
+- [Author](#author)
+
+## Overview
+
+### Introduction
+
+- This is a basic understanding of the process taken in building the Website.
+
+#### Purpose + objectives
+- Develop a Brand New Website for the business.
+- Attract visitors to the website who may want our services.
+- Attract visitors to the website who may know someone who wants our services.
+- Communicate our luxurious salon brand to potential customers.
+- Provide directions and contact information to potential customers.
+
+## Process + Development
+
+### Set Up
+
+1. Project management tools and communication channels.
+    
+    - GitHub for code storage
+    - Vercel for React Hosting
+    - Render for Django Backend Api
+    - Railway for PostgreSql Database
+
+2. Requirements and preferences from the client.
+
+    - Business Information: Salon name, address, and contact details. Operating hours and days of the week.
+    - Target Audience: Females
+    - Services Offered: Hairworks, Braiding + Cornrows, Weaving + Crotchets
+    - Branding Guidelines: Logos, Color schemes
+    - Functionalities: simple booking system, contact form
+
+3. Timelines and milestones.
+
+    - Total Project Duration ( 14 days )
+    - Planning - ( 1 Day )
+    - Design - ( 2 Days )
+    - Template Development + SEO - ( 2 Days )
+    - React Development - ( 3 Days )
+    - Backend + Database Development - ( 3 Days )
+    - Hosting + Delivery - ( 2 Days )
+
+## Design
+
+## SEO
+
+#### Meta tags
+
+```HTML
+<meta name="author" content="Momanyi Brian" />
+<meta name="publisher" content="Momanyi Brian">
+<meta name="description" content="Romance and affection in our Valentines Website. Spread love and joy, embrace the beauty of connection and cherish the bonds that warm our hearts." />
+<meta property="title" content="Valentines Website" />
+<meta name="robots" content="index,follow">
+
+<link rel="canonical" href="https://happy-valentines-website.vercel.app/home" />
+
+<!-- Title -->
+<title>Happy Valentines Day | Valentines Website</title>
+```
+
+#### Keywords
+- Twists for you
+- 
