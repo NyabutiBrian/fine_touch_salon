@@ -27,7 +27,7 @@ This is a basic understanding of the process taken in building the Website.
 ### HTML + CSS + Tailwind Development
 - This section identifies the code templates. Templates do not have Javascript functionalitiies and animations.
 - The templates are in the folder blueprint.
-- Link - [Fine Touch Salon blueprint]()
+- Link - [Fine Touch Salon blueprint](https://nyabutibrian.github.io/fine_touch_salon/blueprint/build/)
 
 ## React Development
 - This section identifies the React code development. The templates have been modified to become reactive. 

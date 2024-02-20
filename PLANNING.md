@@ -129,15 +129,11 @@
 <title>Best in Utawala | Expert Hair | Fine Touch Salon</title>
 ```
 
-#### Keywords
-- Twists for you
-- 
-
 ## Development
 
 #### HTML + CSS + Tailwind Development
 
-- Link - [Fine Touch Salon blueprint]()
+- Link - [Fine Touch Salon blueprint](https://nyabutibrian.github.io/fine_touch_salon/blueprint/build/)
 
 #### React + Vite Development
 
