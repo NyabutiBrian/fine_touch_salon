@@ -2158,6 +2158,10 @@ html{
   background-size: cover;
 }
 
+.bg-contain{
+  background-size: contain;
+}
+
 .bg-center{
   background-position: center;
 }
@@ -2352,6 +2356,11 @@ html{
 .text-6xl{
   font-size: 3.75rem;
   line-height: 1;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold{
@@ -2755,6 +2764,16 @@ body {
   .md\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-7xl{
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .md\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .md\:font-bold{
