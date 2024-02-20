@@ -1,4 +1,4 @@
-## FINE TOUCH SALON DEVELOPMENT WEBSITE TIMELINE
+## FINE TOUCH SALON DESIGN & DEVELOPMENT
 
 ## Table of contents
 
@@ -6,10 +6,10 @@
     - [Introduction](#introduction)
 - [Process + Development](#process-+-development)
     - [Set Up](#set-up)
-    - [Design](#design)
-    - [Content](#content)
-    - [Functionality + Responsiveness](#functionality-+-responsiveness)
+    - [Design & Content](#design-&-content)
     - [SEO](#seo)
+    - [Development](#development)
+    - [Functionality + Responsiveness](#functionality-+-responsiveness)
 - [Useful Resources](#useful-resources)
 - [Author](#author)
 
@@ -55,7 +55,62 @@
     - Backend + Database Development - ( 3 Days )
     - Hosting + Delivery - ( 2 Days )
 
-## Design
+4. Shared Google Drive Setup
+
+## Design & Content
+- [Figma Designs](https://www.figma.com/file/sfHfVuCdqiYr0hbGf9o0ov/Fine-Touch-Salon?type=design&node-id=0%3A1&mode=design&t=b85a86eXiD99hvKE-1)
+
+#### Structure & Backbone
+1. Website Name
+2. Favicon
+3. Tagline
+4. Pages
+5. Colour Pallete
+6. Typography
+
+#### Header:
+- Salon logo and navigation menu.
+- Call-to-action (CTA) button for booking appointments.
+
+ #### Home Page:
+1. Hero Section:
+    - Striking visuals showcasing the salon's ambiance and expertise.
+    - Concise tagline capturing the essence of Fine Touch Salon.
+2. About Us Section:
+    - Overview of the salon's history, values, and team.
+3. Services Highlights:
+    - Featured services with brief descriptions.
+    - Direct links to detailed service pages.
+4. Testimonials:
+    - Customer reviews and testimonials for social proof.
+5. Contact Information:
+    - Salon address, phone number, and email.
+    - Map integration for easy navigation.
+    - User-friendly form for inquiries
+
+#### Services Page:
+1. Hero Section:
+    - Concise tagline capturing the essence of Fine Touch Salon.
+2. Service Menu:
+    - Comprehensive list of services with detailed descriptions.
+    - Pricing information for each service.
+    - Quality images showcasing the salon's work.
+3. Contact Information:
+    - Salon address, phone number, and email.
+    - Map integration for easy navigation.
+    - User-friendly form for inquiries
+
+#### Appointment Page:
+1. Hero Section:
+    - Striking visuals showcasing the salon's ambiance and expertise.
+    - Concise tagline capturing the essence of Fine Touch Salon.
+2. Contact Form:
+    - User-friendly form for inquiries and appointment requests.
+
+#### Footer:
+1. Navigation Links:
+    - Quick links to important pages.
+    - Social media links.
 
 ## SEO
 
@@ -64,16 +119,29 @@
 ```HTML
 <meta name="author" content="Momanyi Brian" />
 <meta name="publisher" content="Momanyi Brian">
-<meta name="description" content="Romance and affection in our Valentines Website. Spread love and joy, embrace the beauty of connection and cherish the bonds that warm our hearts." />
-<meta property="title" content="Valentines Website" />
+<meta name="description" content="Best salon experience in Utawala. Range of hair services tailored to enhance your natural beauty. Book your appointment today and elevate your style." />
+<meta property="title" content="Best in Utawala | Fine Touch Salon" />
 <meta name="robots" content="index,follow">
 
-<link rel="canonical" href="https://happy-valentines-website.vercel.app/home" />
+<link rel="canonical" href="" />
 
 <!-- Title -->
-<title>Happy Valentines Day | Valentines Website</title>
+<title>Best in Utawala | Expert Hair | Fine Touch Salon</title>
 ```
 
 #### Keywords
 - Twists for you
 - 
+
+## Development
+
+#### HTML + CSS + Tailwind Development
+
+- Link - [Fine Touch Salon blueprint]()
+
+#### React + Vite Development
+
+- Link - [Fine Touch Salon]()
+    
+####  Responsive Design:
+- Ensure the website is optimized for various devices, providing a seamless user experience on desktops, tablets, and smartphones.

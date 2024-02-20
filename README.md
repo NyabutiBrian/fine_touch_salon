@@ -22,7 +22,7 @@ This is a basic understanding of the process taken in building the Website.
 
 ### Figma Design
 - This section identifies the figma design:
-- Link - [Figma Designs](https://www.figma.com/file/sfHfVuCdqiYr0hb)
+- Link - [Figma Designs](https://www.figma.com/file/sfHfVuCdqiYr0hbGf9o0ov/Fine-Touch-Salon?type=design&node-id=0%3A1&mode=design&t=b85a86eXiD99hvKE-1)
 
 ### HTML + CSS + Tailwind Development
 - This section identifies the code templates. Templates do not have Javascript functionalitiies and animations.
