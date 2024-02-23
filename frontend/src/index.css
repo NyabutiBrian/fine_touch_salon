@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #F2B678;
+    font-family: Poppins;
+}
+
+.bigt {
+    font-size: 12rem;
+    line-height: 1;
+}
+.bigt2 {
+    font-size: 9rem;
+    line-height: 1;
+}
+.hover-text span.hover-img{
+    display: none;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hover-text:hover span.hover-img{
+    display: block;
+}
