@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+
 import svgTop from '../assets/images/dark-wave-haikei-up.svg'
 import svgBottom from '../assets/images/dark-wave-haikei-down.svg'
 
@@ -13,6 +14,11 @@ import Values from '../layouts/about/Values'
 import CEO from '../layouts/about/CEO'
 
 const About = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Navbar />

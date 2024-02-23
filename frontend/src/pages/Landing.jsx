@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import svgTop from '../assets/images/dark-wave-haikei-up.svg'
 import svgBottom from '../assets/images/dark-wave-haikei-down.svg'
@@ -13,6 +13,11 @@ import Services from '../layouts/landing/Services'
 import Feedback from '../layouts/landing/Feedback'
 
 const Landing = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Navbar />
