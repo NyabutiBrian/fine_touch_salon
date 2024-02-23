@@ -123,7 +123,7 @@
 <meta property="title" content="Best in Utawala | Fine Touch Salon" />
 <meta name="robots" content="index,follow">
 
-<link rel="canonical" href="" />
+<link rel="canonical" href="https://fine-touch-salon.vercel.app" />
 
 <!-- Title -->
 <title>Best in Utawala | Expert Hair | Fine Touch Salon</title>
@@ -138,6 +138,11 @@
 #### React + Vite Development
 
 - Link - [Fine Touch Salon](https://fine-touch-salon.vercel.app)
-    
-####  Responsive Design:
-- Ensure the website is optimized for various devices, providing a seamless user experience on desktops, tablets, and smartphones.
+
+## Useful Resources
+
+
+## Author
+
+- Momanyi Brian's Website: - [Momanyi Brian](https://momanyi-brian-portfolio.vercel.app)
+- Frontend Mentor - [@MomanyiPoet](https://www.frontendmentor.io/profile/MomanyiPoet)
