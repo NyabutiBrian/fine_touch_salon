@@ -37,7 +37,7 @@ This is a basic understanding of the process taken in building the Website.
 
 ### Links
 
-- Live Site URL: [Vercel to be changed]()
+- Live Site URL: [Fine Touch Salon](https://fine-touch-salon.vercel.app)
 
 ## Author
 

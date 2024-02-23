@@ -137,7 +137,7 @@
 
 #### React + Vite Development
 
-- Link - [Fine Touch Salon]()
+- Link - [Fine Touch Salon](https://fine-touch-salon.vercel.app)
     
 ####  Responsive Design:
 - Ensure the website is optimized for various devices, providing a seamless user experience on desktops, tablets, and smartphones.
