@@ -9,7 +9,7 @@ const About = () => {
             <div>
                 <h1 className="text-primary text-3xl font-semibold">Fine Touch Salon</h1>
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img src={aboutLogo} alt="Fine Touch About Logo" title="About Logo Fine Touch Salon"/>
             </div>
         </div>

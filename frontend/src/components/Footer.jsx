@@ -10,9 +10,9 @@ const Footer = () => {
         <div className="max-w-sm sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-2 pt-32 pb-5">
             <div className="flex flex-col items-center xl:flex-row xl:justify-between">
                 <div className="mb-6 md:mb-0">
-                    <a href="#">
-                        <img src={footerLogo} alt="Fine Touch Footer Logo" title="Footer Logo Fine Touch Salon"/>
-                    </a>
+                    <Link to="/">
+                        <img data-aos="flip-left" src={footerLogo} alt="Fine Touch Footer Logo" title="Footer Logo Fine Touch Salon"/>
+                    </Link>
                 </div>
                 <div className="grid grid-cols-2 gap-8 sm:gap-6">
                     <div>

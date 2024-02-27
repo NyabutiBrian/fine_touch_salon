@@ -23,7 +23,7 @@ const Header = () => {
         </div>
 
         {/* Tagline */}
-        <div className="max-w-5xl mx-auto shadow-2xl rounded-3xl mt-4 py-4 px-6 bg-gradient-to-br from-warmy to-[#FFE6CB] z-40">
+        <div data-aos="zoom-in" className="max-w-5xl mx-auto shadow-2xl rounded-3xl mt-4 py-4 px-6 bg-gradient-to-br from-warmy to-[#FFE6CB] z-40">
             <div className="text-primary font-medium md:text-md mt-6 flex flex-col items-center space-y-4">
                 <p>
                     Fine Touch Salon located in the heart 

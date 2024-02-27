@@ -11,7 +11,7 @@ const LandingList = ({services, title}) => {
             <div>
             {services.map((service) => (
                 <ul className="text-primary text-lg fle flex-col space-y-2" key={service.id}>
-                    <div className="flex items-center justify-center space-x-2">
+                    <div data-aos="fade-left" className="flex items-center justify-center space-x-2">
                         <i className="fa-solid fa-check-double"></i>
                         <li>{service.name}</li>
                     </div>

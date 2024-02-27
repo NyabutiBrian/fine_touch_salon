@@ -24,7 +24,7 @@ const Feedback = () => {
         {/* Customer 1 */}
         <>
             {feedbacks.map((feedback) => (
-                <div className="flex flex-col space-y-2 text-primary shadow-2xl rounded-3xl" key={feedback.id}>
+                <div data-aos="fade-up" className="flex flex-col space-y-2 text-primary shadow-2xl rounded-3xl" key={feedback.id}>
                     <div className="relative px-auto py-36 xl:py-48 rounded-t-3xl bg-center bg-cover" style={{backgroundImage: `url(${feedback.image})`}} alt="Fine Touch Client Testimonial" title="Client Testimonial Fine Touch Salon" loading = "lazy"></div>
                     <div className="p-4 flex flex-col space-y-2">
                         <h3 className="font-semibold text-lg">{feedback.name}</h3>
