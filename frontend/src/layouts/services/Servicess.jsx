@@ -45,7 +45,7 @@ const Servicess = () => {
                     {services.map((service) => (
                         <>
                             <div className="text-primary italic font-semibold py-8 hover-text" key={service.id}>
-                                <div className="md:hidden rounded-xl bg-center bg-cover p-36" style={{backgroundImage: `url(${service.image})`,}} alt="Fine Touch Salon Service Attractive Picture" title="Attractive Service Picture">
+                                <div data-aos="flip-up" className="md:hidden rounded-xl bg-center bg-cover p-36" style={{backgroundImage: `url(${service.image})`,}} alt="Fine Touch Salon Service Attractive Picture" title="Attractive Service Picture">
                                 </div>
                                 <div className="flex justify-between px-8 md:px-16 py-4 text-xl lg:text-5xl md:font-bold">
                                     <p>{service.name}</p>

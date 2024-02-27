@@ -7,7 +7,7 @@ const Header = () => {
     <div id="header" className="flex flex-col items-center justify-center py-16 z-20 scroll-m-16 bg-center bg-cover" style={{backgroundImage: `url(${pattern2})`}}>
         {/* Image */}
         <div>
-            <img src={heroImage} alt="Hero Section visual of unique hair styles" title="Striking visuals of different hairsytles" className="w-80 md:w-auto"/>
+            <img data-aos="zoom-out-down" src={heroImage} alt="Hero Section visual of unique hair styles" title="Striking visuals of different hairsytles" className="w-80 md:w-auto"/>
         </div>
     </div>
   )

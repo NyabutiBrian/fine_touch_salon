@@ -4,7 +4,7 @@ const Objectives = () => {
   return (
     <section className="py-8">
         <div className="bg-whity rounded-3xl shadow-2xl p-4 sm:px-8">
-            <div>
+            <div data-aos="flip-up">
                 <div className="flex justify-end px-8 md:px-16">
                     <h1 className="-mt-12 text-3xl sm:text-4xl text-primary italic py-4 px-6 font-semibold bg-whity rounded-3xl shadow-2xl">OBJECTIVES</h1>
                 </div>

@@ -5,7 +5,7 @@ import hair7 from '../../assets/images/customers/hair7.webp'
 const CEO = () => {
   return (
     <section>
-        <div className="py-16">
+        <div data-aos="fade-up" className="py-16">
             <div className="flex flex-col lg:flex-row justify-center items-center space-y-4 lg:space-y-0">
                 <div className="lg:-mx-8 z-10">
                     <img src={hair7} alt="Fine Touch Salon CEO" title="CEO Fine Touch Salon" className="w-72 sm:w-96 rounded-3xl shadow-2xl" loading = "lazy" />
