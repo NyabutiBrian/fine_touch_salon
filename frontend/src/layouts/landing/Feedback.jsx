@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import client1 from '../../assets/images/customers/hair3.webp'
+import client1 from '../../assets/images/customers/hair10.webp'
 import client2 from '../../assets/images/customers/hair4.webp'
 import client3 from '../../assets/images/customers/hair7.webp'
 
