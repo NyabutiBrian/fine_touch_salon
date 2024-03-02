@@ -5,6 +5,10 @@ import About from './pages/About';
 import Appointment from './pages/Appointment';
 import Services from './pages/Services';
 
+import { inject } from '@vercel/analytics';
+ 
+inject();
+
 function App() {
 
   return (
