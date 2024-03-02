@@ -51,7 +51,7 @@ const Contact = () => {
             </div>
 
             <div className="xl:col-span-1 md:col-span-2 mt-8 px-8 text-center">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d498.60242340697096!2d36.97020802709274!3d-1.2821485069650393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f6ca38b2f8bcf%3A0x82e3c4af7350c455!2sFINE%20TOUCH%20SALON!5e0!3m2!1sen!2ske!4v1705263157109!5m2!1sen!2ske" style={{border: 0}} allowFullScreen="" loading="async" referrerPolicy="no-referrer-when-downgrade" className="rounded-lg w-full"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d498.60242340697096!2d36.97020802709274!3d-1.2821485069650393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f6ca38b2f8bcf%3A0x82e3c4af7350c455!2sFINE%20TOUCH%20SALON!5e0!3m2!1sen!2ske!4v1705263157109!5m2!1sen!2ske" style={{border: 0}} allowFullScreen="" loading="async" async defer referrerPolicy="no-referrer-when-downgrade" className="rounded-lg w-full"></iframe>
             </div>
         </div>
     </section>
