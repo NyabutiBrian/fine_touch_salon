@@ -21,9 +21,9 @@ const Navbar = () => {
                     <li><a href="#contacts">Contact Us</a></li>
                 </ul>
             </div>
-            <a to="./index.html" className="md:ml-4">
+            <Link to="/" className="md:ml-4">
                 <img src={logo} alt="Fine Touch Navigation Logo" title="Navigation Logo" className="w-1/3" />
-            </a>
+            </Link>
         </div>
         <div className="navbar-center hidden md:flex">
             <ul className="menu menu-horizontal px-1 text-whity font-medium">

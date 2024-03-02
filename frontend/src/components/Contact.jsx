@@ -33,25 +33,25 @@ const Contact = () => {
                 <p className="mb-4 text-primary text-center font-semibold text-lg">Get in Touch with Us!</p>
                 <form>
                     <div className="relative z-0 w-full mb-6 group">
-                        <input type="text" name="floating_text" id="floating_text" className="block py-2.5 px-0 w-full text-sm text-primary bg-transparent border-0 border-b-2 border-primary appearance-none  focus:outline-none focus:ring-0 focus:border-primary peer" placeholder=" " required />
-                        <label htmlFor="floating_text" className="peer-focus:font-medium absolute text-sm text-primary duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Name</label>
+                        <input type="text" name="full_name" id="full_name" className="block py-2.5 px-0 w-full text-sm text-primary bg-transparent border-0 border-b-2 border-primary appearance-none  focus:outline-none focus:ring-0 focus:border-primary peer" placeholder=" " required />
+                        <label htmlFor="full_name" className="peer-focus:font-medium absolute text-sm text-primary duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Name</label>
                     </div>
                     <div className="relative z-0 w-full mb-6 group">
-                        <input type="email" name="floating_email" id="floating_email" className="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-primary text-primary appearance-none  focus:outline-none focus:ring-0 focus:border-primary peer" placeholder=" " required />
-                        <label htmlFor="floating_email" className="peer-focus:font-medium absolute text-sm text-primary duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email Address</label>
+                        <input type="email" name="email" id="email" className="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-primary text-primary appearance-none  focus:outline-none focus:ring-0 focus:border-primary peer" placeholder=" " required />
+                        <label htmlFor="email" className="peer-focus:font-medium absolute text-sm text-primary duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email Address</label>
                     </div>
                     <div className="relative z-0 w-full mb-6 group">
-                        <textarea type="text" name="floating_text" id="floating_text" className="textarea textarea-bordered h-24 block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-primary text-primary appearance-none  focus:outline-none focus:ring-0 focus:border-primary peer" placeholder="" spellCheck="true" required></textarea>
-                        <label htmlFor="floating_text" className="peer-focus:font-medium absolute text-sm text-primary duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
+                        <textarea type="text" name="message" id="message" className="textarea textarea-bordered h-24 block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-primary text-primary appearance-none  focus:outline-none focus:ring-0 focus:border-primary peer" placeholder="" spellCheck="true" required></textarea>
+                        <label htmlFor="message" className="peer-focus:font-medium absolute text-sm text-primary duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
                     </div>
                     <div className="text-end">
-                        <button value="submit" className="text-whity/80 bg-primary hover:text-whity focus:ring-4 focus:outline-none focus:ring-warmy font-medium rounded-lg md:w-full sm:w-auto px-5 py-2.5 text-center transition duration-200 transform hover:scale-110">Submit</button>
+                        <button type='submit' value="submit" className="text-whity/80 bg-primary hover:text-whity focus:ring-4 focus:outline-none focus:ring-warmy font-medium rounded-lg md:w-full sm:w-auto px-5 py-2.5 text-center transition duration-200 transform hover:scale-110">Submit</button>
                     </div>
                 </form>
             </div>
 
             <div className="xl:col-span-1 md:col-span-2 mt-8 px-8 text-center">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d498.60242340697096!2d36.97020802709274!3d-1.2821485069650393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f6ca38b2f8bcf%3A0x82e3c4af7350c455!2sFINE%20TOUCH%20SALON!5e0!3m2!1sen!2ske!4v1705263157109!5m2!1sen!2ske" style={{border: 0}} allowFullScreen="" loading="lazy" async defer referrerPolicy="no-referrer-when-downgrade" className="rounded-lg w-full"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d498.60242340697096!2d36.97020802709274!3d-1.2821485069650393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f6ca38b2f8bcf%3A0x82e3c4af7350c455!2sFINE%20TOUCH%20SALON!5e0!3m2!1sen!2ske!4v1705263157109!5m2!1sen!2ske" title='Fine Touch Salon Google Map Shop' style={{border: 0}} allowFullScreen="" loading="lazy" async defer referrerPolicy="no-referrer-when-downgrade" className="rounded-lg w-full"></iframe>
             </div>
         </div>
     </section>
