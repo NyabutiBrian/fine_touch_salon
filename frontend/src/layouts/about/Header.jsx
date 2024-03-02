@@ -1,4 +1,5 @@
 import React from 'react'
+
 import heroImage from '../../assets/images/header-1-8.webp'
 import pattern2 from '../../assets/images/pattern-2-8.webp'
 

@@ -56,12 +56,12 @@ const Form = () => {
                 <p className="mb-4 text-primary text-center font-semibold text-lg">Appointment Form</p>
                 <form>
                     <div className="relative z-0 w-full mb-6 group">
-                        <input type="text" name="floating_text" id="floating_text" className="block py-2.5 px-0 w-full text-sm text-primary bg-transparent border-0 border-b-2 border-primary appearance-none  focus:outline-none focus:ring-0 focus:border-primary peer" placeholder=" " required />
-                        <label htmlFor="floating_text" className="peer-focus:font-medium absolute text-sm text-primary duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Name</label>
+                        <input type="text" name="full_name" id="full_name" className="block py-2.5 px-0 w-full text-sm text-primary bg-transparent border-0 border-b-2 border-primary appearance-none  focus:outline-none focus:ring-0 focus:border-primary peer" placeholder=" " required />
+                        <label htmlFor="full_name" className="peer-focus:font-medium absolute text-sm text-primary duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Name</label>
                     </div>
                     <div className="relative z-0 w-full mb-6 group">
-                        <input type="email" name="floating_email" id="floating_email" className="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-primary text-primary appearance-none  focus:outline-none focus:ring-0 focus:border-primary peer" placeholder=" " required />
-                        <label htmlFor="floating_email" className="peer-focus:font-medium absolute text-sm text-primary duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email Address</label>
+                        <input type="email" name="email" id="email" className="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-primary text-primary appearance-none  focus:outline-none focus:ring-0 focus:border-primary peer" placeholder=" " required />
+                        <label htmlFor="email" className="peer-focus:font-medium absolute text-sm text-primary duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email Address</label>
                     </div>
                     <div className="relative z-0 w-full mb-6 group">
                         <label htmlFor="price" className="block mb-2 text-sm font-medium text-primary">Phone:</label>
@@ -79,11 +79,11 @@ const Form = () => {
                         </select>
                     </div>
                     <div className="relative z-0 w-full mb-6 group">
-                        <textarea type="text" name="floating_text" id="floating_text" className="textarea textarea-bordered h-24 block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-primary text-primary appearance-none  focus:outline-none focus:ring-0 focus:border-primary peer" placeholder="" spellCheck="true" required ></textarea>
-                        <label htmlFor="floating_text" className="peer-focus:font-medium absolute text-sm text-primary duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
+                        <textarea type="text" name="message" id="message" className="textarea textarea-bordered h-24 block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-primary text-primary appearance-none  focus:outline-none focus:ring-0 focus:border-primary peer" placeholder="" spellCheck="true" required ></textarea>
+                        <label htmlFor="message" className="peer-focus:font-medium absolute text-sm text-primary duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
                     </div>
                     <div className="text-end">
-                        <button value="submit" className="text-whity/80 bg-primary hover:text-whity focus:ring-4 focus:outline-none focus:ring-warmy font-medium rounded-lg sm:w-auto px-5 py-2.5 text-center transition duration-200 transform hover:scale-110">Submit</button>
+                        <button type='submit' value="submit" className="text-whity/80 bg-primary hover:text-whity focus:ring-4 focus:outline-none focus:ring-warmy font-medium rounded-lg sm:w-auto px-5 py-2.5 text-center transition duration-200 transform hover:scale-110">Submit</button>
                     </div>
                 </form>
             </div>
