@@ -9,8 +9,6 @@
     - [Design & Content](#design-&-content)
     - [SEO](#seo)
     - [Development](#development)
-    - [Functionality + Responsiveness](#functionality-+-responsiveness)
-- [Useful Resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -144,9 +142,6 @@ Disallow:
 #### React + Vite Development
 
 - Link - [Fine Touch Salon](https://fine-touch-salon.vercel.app)
-
-## Useful Resources
-
 
 ## Author
 
