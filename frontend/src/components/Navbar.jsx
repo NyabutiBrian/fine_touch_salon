@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="navbar sticky top-0 max-w-screen-md xl:max-w-screen-xl rounded-full mx-auto bg-primary z-50">
         <div className="navbar-start">
             <div className="dropdown">
-                <button tabIndex="0" role="button" className="btn btn-ghost md:hidden text-whity">
+                <button tabIndex="0" role="button" name='button' className="btn btn-ghost md:hidden text-whity">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />

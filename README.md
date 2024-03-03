@@ -41,6 +41,5 @@ This is a basic understanding of the process taken in building the Website.
 
 ## Author
 
-- Momanyi Brian's Website: - [Momanyi Brian](https://momanyi-brian-portfolio.vercel.app)
-- Frontend Mentor - [@MomanyiPoet](https://www.frontendmentor.io/profile/MomanyiPoet)
+- [Momanyi Brian](https://momanyi-brian-portfolio.vercel.app)
 

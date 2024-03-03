@@ -29,14 +29,14 @@ cd frontend
 npm install
 npm run dev -- --host
 
-npm i @vercel/analytics
-
 # Install tailwindcss via npm, and create your tailwind.config.js file.
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 
 npm install react-router-dom
 npm i -D daisyui@latest
+npm i @vercel/analytics
+npm install aos --save
 
 # Tailwind directives to your CSS.
 @tailwind base;
@@ -51,12 +51,30 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#1F0B0B',
+        secondary: '#FFBE42',
+      },
+    },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 
 npm run dev -- --host
+```
+
+**Additional Directories + Files**
+
+**vercel.json add in root directory**
+```bash
+#page to refresh without showing 404 error
+
+{
+  "rewrites": [
+      {"source": "/(.*)", "destination": "/"}
+  ]
+}
 ```
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -69,6 +87,8 @@ Currently, two official plugins are available:
 ## Useful Resources
 - [Tailwind Website](https://tailwindcss.com/)
 - [Vite](https://vitejs.dev/)
+- [Vite Config](https://github.com/woodbrettm/vite-config)
+- [AOS](https://michalsnik.github.io/aos/)
 
 ## Author
 - Momanyi Brian - [Website](https://momanyi-brian-portfolio.vercel.app)

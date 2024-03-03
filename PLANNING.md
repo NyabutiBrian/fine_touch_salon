@@ -129,6 +129,12 @@
 <title>Best in Utawala | Expert Hair | Fine Touch Salon</title>
 ```
 
+**robots.txt**
+```
+User-agent: *
+Disallow:
+```
+
 ## Development
 
 #### HTML + CSS + Tailwind Development
@@ -144,5 +150,4 @@
 
 ## Author
 
-- Momanyi Brian's Website: - [Momanyi Brian](https://momanyi-brian-portfolio.vercel.app)
-- Frontend Mentor - [@MomanyiPoet](https://www.frontendmentor.io/profile/MomanyiPoet)
+- [Momanyi Brian](https://momanyi-brian-portfolio.vercel.app)
